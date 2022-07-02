@@ -9,7 +9,7 @@ def referenciaAutor():
     nome3 = ' '.join(nome)
     print(nome2.upper(),',',nome3[0:len(nome3)-1].title() )
 
-
+referenciaAutor()
 def matrizt():
     
     matriz_n = []
@@ -42,7 +42,7 @@ matriz = []
 for l in range(0, m):
     line = []
     for c in range(0, n):
-        linha.append(int(input('X{}{}: '.format(l + 1, c + 1))))
+        line.append(int(input('X{}{}: '.format(l + 1, c + 1))))
     matriz.append(line)
 
 matrizt()
